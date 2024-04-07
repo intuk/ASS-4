@@ -33,6 +33,10 @@ body {
   width: 100%;
 }
 
+.link-img {
+  display: none;
+}
+
 ul li {
   list-style: none;
 }
@@ -153,6 +157,8 @@ footer {
   margin-top: 88px;
 }
 
+/* MEDIA QUERRY STARTS HERE */
+
 @media screen and (max-width: 375px) {
   .header-container2, .main-section {
     flex-direction: column;
@@ -163,8 +169,13 @@ footer {
     width: 20%;
   }
 
-  .menu-link-container {
+  .link-ul {
     display: none;
+  }
+
+  .link-img {
+    display: flex;
+    justify-content: end;
   }
 
   .header-container2 h1 {
