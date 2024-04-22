@@ -1,0 +1,406 @@
+@import url("https://fonts.googleapis.com/css2?family=Montaga&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Montaga", serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3% 5%;
+}
+
+.logo {
+  width: 15%;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.link-img {
+  display: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+li {
+  white-space: nowrap;
+}
+
+li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+li a:hover {
+  color: #C6754D;
+}
+
+.menu-link-container {
+  width: 25%;
+}
+
+.menu-link {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 12%;
+}
+
+.header-container1 {
+  background-color: #f0ccbb;
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 5%;
+  align-items: center;
+  gap: 10%;
+  
+  
+}
+
+.header-hp {
+  flex-basis: 60%;
+}
+
+.header-img {
+  display: flex;
+  position: relative; 
+  flex-basis: 40%;
+ 
+}
+
+.img1 {
+  width: 80%;
+  position: relative;
+}
+
+
+.img2 {
+  width: 40%;
+  position: absolute;
+  left: 60%;
+  bottom: -5%;
+}
+
+.img1 img {
+  width: 100%;
+}
+
+.img2 img {
+  width: 100%;
+}
+
+
+.header-hp h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  color: #000000;
+}
+
+.header-p p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #231f20;
+  margin-top: 3%;
+}
+
+
+.main-section1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 5%;
+  gap: 5%;
+  
+}
+
+.main-section1 h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #231f20;
+}
+
+.main-section1 p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #231f20;
+  line-height: 1.8rem;
+  padding-top: 5%;
+}
+
+.main-section1 p time, .main-section1 p em {
+  color: #440404;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  font-style: normal;
+}
+
+ .main-img {
+  display: none;
+
+ }
+
+.main-section2 {
+  padding: 3% 5%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.inner-container1 {
+  flex-basis: 55%;
+  position: relative;
+}
+
+
+.main-section2 img {
+  width: 100%;
+  border-radius: 3%;
+  
+}
+
+
+
+
+
+.inner-container2 {
+  position: absolute;
+  width: 50%;
+  padding: 2% 5%;
+  right: 5%;
+  background-color: #c6754d;
+  color: #fff;
+}
+
+.inner-container2 h2 {
+  font-size: 2.7rem;
+  font-weight: 400;
+  margin-bottom: 2%;
+}
+
+.inner-container2 p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+}
+
+.inner-container3 img {
+  display: block;
+  width: 100%;
+}
+
+
+.inner-container3 {
+  position: absolute;
+  left: 90%;
+  top: 15%;
+  width: 10%;
+ 
+}
+
+.main-section3 {
+  background-color: #97917a;
+  width: 100%;
+  position: relative;
+}
+
+.sect3-img {
+  width: 100%;
+  height: 100%;
+}
+
+.main-section3-img {
+  width: 25%;
+  position: relative;
+  left: 15%;
+}
+
+.main-section3 h4 {
+  color: #fcf9f7;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.bng-container {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 8%;
+}
+
+
+.bridesmaids-container,
+.groomsmen-container {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+ 
+}
+
+.groomsmen-container, .bridesmaids-container {
+  margin-bottom: 3%;
+}
+
+.groomsmen, .bridesmaids {
+  width : 100%;
+ 
+}
+
+.groomsmen img,.bridesmaids img {
+  width: 100%;
+  height: 100%;
+}
+
+.bng-container1 h2{
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-align: center;
+  color: #fcf9f7;
+  padding: 2%;
+
+}
+
+ h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  color: #fcf9f7;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+
+footer p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color:#000000;
+}
+
+
+@media screen and (max-width: 481px) {
+  .header-container1, .main-section1 {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .logo {
+    width: 20%;
+  }
+
+  .link-ul {
+    display: none;
+  }
+
+  .link-img {
+    display: flex;
+    justify-content: end;
+  }
+
+  .header-container1 {
+    padding-bottom: 10%;
+  }
+  
+  .header-hp h1 {
+    font-size: 2.5rem;
+  }
+
+  .header-hp p {
+    font-size: 1rem;
+  }
+
+
+
+  .header-img {
+     margin-top: 3%;
+  }
+
+  .header-img {
+    width: 100%;
+  }
+
+  .main-section1 div {
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .main-section1 p {
+    padding-top: 5%;
+  }
+
+ 
+
+  .main-img {
+    display:block;
+   
+  }
+
+  .main-pic {
+    width: 100%;
+    height: 273px;
+  }
+
+ 
+  .inner-container1 img {
+    border-radius: 0;
+  }
+ 
+  .inner-container1 {
+    width: 100%;
+    position: relative;
+    top: 12.5rem;
+    padding-bottom: 5%;  
+  }
+
+ 
+  .inner-container2 {
+    width: 90%;
+    left: 0;
+    position: relative;
+    bottom: 16rem;
+    
+  }
+
+  .main-section3 {
+    margin-top: 5%;
+  }
+
+  .main-section3 h4 {
+    margin-bottom: 0;
+    margin-top: 3%;
+  }
+  
+
+  .groomsmen-container {
+    margin-bottom: 0;
+  }
+
+ 
+  .bridesmaids-container, .groomsmen-container,.main-section2 {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;  
+    gap: 0;
+  }
+
+
+}
